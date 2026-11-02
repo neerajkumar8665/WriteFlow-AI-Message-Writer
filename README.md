@@ -31,18 +31,18 @@ Users can select a writing tone, output language, recipient, and message purpose
 ## Project Structure
 
 ```text
-AI_Email_Writer/
+WriteFlow/
 │
 ├── app.py
 ├── ai_service.py
 ├── ai_engine.py
 ├── prompts.py
 ├── database.py
+├── test_ai_service.py
+├── test_ai_engine.py
 ├── requirements.txt
-├── .env
 ├── .gitignore
-├── README.md
-└── writeflow.db
+└── README.md
 ```
 
 ## Installation and Setup
@@ -50,8 +50,8 @@ AI_Email_Writer/
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-cd AI_Email_Writer
+git clone https://github.com/neerajkumar8665/WriteFlow-AI-Message-Writer.git
+cd WriteFlow-AI-Message-Writer
 ```
 
 ### 2. Create a virtual environment
